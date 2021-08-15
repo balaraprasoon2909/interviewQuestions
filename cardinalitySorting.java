@@ -1,3 +1,9 @@
+// Given an array of non-negative integers, sort the elements of the array in the increasing order of their cardinality. The cardinality of an integer can be defined as the number of 1's in it's binary representation.
+
+// For example, 2 = 10, so its cardinality is 1 and similarly if we look for, say, 12 = 1100, its cardinality would be 2.
+
+// The output should be an integer array with elements in the increasing order of cardinality and the elements with the same cardinality should also be sorted in ascending fashion.
+
 class Solution{
     public int cardinality(int num){
         int result = 0;
